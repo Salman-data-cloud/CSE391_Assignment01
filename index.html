@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content ="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+    <header>
+        <h1>Md. Salman Pasha</h1>
+        <p><em>"The secret of getting ahead is getting started."-Mark Twain</em></p>
+        
+        
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm Md. Salman Pasha, a passionate Data Engineer with experience in Python and SQL. I dream to build scalable and robust data infratructure.</p>
+        <p>Checkout my university here: <a href="https://www.bracu.ac.bd/">BRAC University</a></p>
+        <p>You can check my assignments here! <a href ="tasks.html">Assignment 2</a></p>
+        <img src="picture.jpg" alt="Salman Pasha" width="200">
+        <img src="https://w0.peakpx.com/wallpaper/301/918/HD-wallpaper-bangladeshi-metal-flag-grunge-art-asian-countries-day-of-bangladesh-national-symbols-bangladesh-flag-metal-flags-flag-of-bangladesh-asia-bangladeshi-flag-bangladesh.jpg" alt="Web Linked Image" width="200">
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li><strong>Python</strong></li>
+            <li><strong>SQL</strong></li>
+            <li><strong>Django</strong></li>
+            <li><strong>HTML & CSS</strong></li>
+        </ul>
+    </section>
+
+    <section id="favorite books">
+        <h2>Top 5 books for Data Engineering</h2>
+        <ul>
+            <li>Data Engineering with Python by Paul Crickard</li>
+            <li>Designing Data-Intensive Applications by Martin Kleppmann</li>
+            <li>Spark: The Definitive Guide: Big Data Processing Made Simple by Bill Chambers, Matei Zaharia</li>
+            <li>The Data Warehouse Toolkit by Ralph Kimball, Margy Ross</li>
+            <li>Fundamentals of Data Engineering: Plan and Build Robust Data Systems by Joe Reis, Matt Housley</li>
+            <li>Big Data: Principles and best practices of scalable realtime data systems by Nathan Marz, James Warren</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <table>
+            <tr>
+                <th>Project</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Portfolio Website</td>
+                <td>A simple and elegant personal portfolio website.</td>
+            </tr>
+            <tr>
+                <td>This project demonstrates structured HTML, CSS, and JavaScript implementation.</td>
+            </tr>
+        </table>
+        <p>See the ongoing projects here: <a href="moreprojects.html">Status</a></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action = "mailto:salmanpasha3011@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+        <ul>
+            <li><strong>Mobile: +880 12345678</strong></li>
+            <li><strong>Email: <a href="mailto:salmanpasha3011@gmail.com">salmanpasha3011@gmail.com</a></strong></li>
+            <li><strong><a href="https://www.linkedin.com/in/md-salman-pasha?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bhox%2F9dKNSXiQTGBO8azwig%3D%3D" target="_blank">LinkedIn</a></strong></li>
+
+        </ul>
+        <p><strong>Visit my github profile here- <a href="https://github.com/Salman-data-cloud" target="_blank">Github</a></strong></p>
+        <p><strong>My Leetcode profile- <a href="https://leetcode.com/u/salmanpasha3011/" target="_blank">Leetcode</a></strong></p>
+        <p><strong>Checkout our university course group channel here- <a href="https://discord.gg/gdsmYRjB" tabindex="_blank">Discord</a></strong></p>
+    </section>
+
+<footer>
+    <p>&copy; 2025 Salman Pasha. Last updated: <span id="last-modified"></span></p>
+</footer>
+<script>
+    document.getElementById('last-modified').textContent = document.lastModified;
+
+    
+</script>
+    
+</body>
+</html>
